@@ -32,29 +32,27 @@
 
 	<header>
 		<h1>Player Audio MP3</h1>
-		<h2>Utilise l'élément html5 'audio', du JS pour les contrôle, et du PhP pour les infos ID3 Tag</h2>
-		<h2>Use html5 'audio' element, JS for controls, and PhP to get the ID3 Tags</h2>
+		<h2>Utilise l'élément html5 'audio', du JS pour les contrôles, et du PhP pour les infos ID3 Tag.</h2>
+		<h2>Use html5 'audio' element, JS for controls, and PhP to get the ID3 Tags.</h2>
 	</header>
-	
+
 	<main id="content" class="clearfix">
-		
+
 		<audio id="audio" >
 			<source src="<?= $mp3 ?>" type="audio/mpeg" />
 			Ca marche pas
 		</audio>
-		
-		<div id="player" 
-			data-titre="<?= $titre ?>" 
+
+		<div id="player"
+			data-titre="<?= $titre ?>"
 			data-artiste="<?= $artiste ?>"
 			data-album="<?= $album ?>">
 		</div>
-		
-		
+				<p class="credits">Made by <a href="//erwannjallier.com">Erwann Jallier</a> _ <a href="//cefim.eu">CEFIM</a> _ 2014</p>
+
 	</main> <!-- /#content -->
 
-	<footer>
 
-	</footer>
 
 
 </div><!-- /#wrapper -->
@@ -63,7 +61,7 @@
 	<script src="//code.jquery.com/ui/1.10.3/jquery-ui.js" ></script>
 	<script src="../js/jquery.ui.touch-punch.min.js" ></script>
 	<script src="../js/audio.js" ></script>
-	
+
 	<script>
 	$(document).ready(function() {
 		makePlayer($("#audio"), $("#player"));

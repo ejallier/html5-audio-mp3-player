@@ -13,7 +13,7 @@ body{
 #wrapper {
 
 	background : white;
-	height: 100%;
+
 }
 header{
 	padding : 1em;
@@ -33,7 +33,9 @@ header h2{
 
 }
 
-
+.credits{
+	text-align: center;
+}
 .alert{
 	background :pink;
 	border : 2px solid red;
@@ -73,8 +75,8 @@ border : 5px solid white;
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; 
-    display: table; 
+    content: " ";
+    display: table;
 }
 
 .clearfix:after {
@@ -97,7 +99,12 @@ html{box-sizing: border-box}
 		position: relative;
 		top: 50%;
 		transform: translateY(-50%);
-		height: auto;
+
+	}
+
+	footer{
+		position: absolute;
+		bottom: 0;
 	}
 
 }
@@ -106,11 +113,13 @@ html{box-sizing: border-box}
 	header, #content{
 		float: left;
 		width: 50%;
+		padding: 1px;
+	}
+	#wrapper{
+		padding: .5em;
+	}
+	#content{
+		padding-top: 2em;
 	}
 
-	#content{
-		position: relative;
-		top: 100%;
-		transform: translateY(-50%);
-	}
 }
