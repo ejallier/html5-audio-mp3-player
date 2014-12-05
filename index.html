@@ -1,20 +1,4 @@
-<?php
-
-	require_once('inc/getid3/getid3.php');
-
-	// Initialize getID3 engine
-	$getID3 = new getID3;
-	$mp3 = "music/zik2.mp3";
-	// Analyze file and store returned data in $ThisFileInfo
-	$ThisFileInfo = $getID3->analyze($mp3);
-
-	getid3_lib::CopyTagsToComments($ThisFileInfo);
-
-	$titre =  $ThisFileInfo['tags_html']['id3v1']['title'][0];  // title from ID3v1
-	$artiste =  $ThisFileInfo['tags_html']['id3v1']['artist'][0];  // title from ID3v1
-	$album =  $ThisFileInfo['tags_html']['id3v1']['album'][0];  // title from ID3v1
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -39,14 +23,14 @@
 	<main id="content" class="clearfix">
 
 		<audio id="audio" >
-			<source src="<?= $mp3 ?>" type="audio/mpeg" />
+			<source src="music/zik2.mp3" type="audio/mpeg" />
 			Ca marche pas
 		</audio>
 
 		<div id="player"
-			data-titre="<?= $titre ?>"
-			data-artiste="<?= $artiste ?>"
-			data-album="<?= $album ?>">
+			data-titre="01 - Entrée"
+			data-artiste="Rita Mistouko"
+			data-album="La femme Trombonne">
 		</div>
 				<p class="credits">
 					Made by <a href="//erwannjallier.com">Erwann Jallier</a> _ <a href="//cefim.eu">CEFIM</a> _ 2014
