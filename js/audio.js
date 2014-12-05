@@ -1,19 +1,17 @@
-
-
 function makePlayer(audio, playerDiv){
 	
 	/*
 	Création des balises du player
 	*/
-	
+	playerDiv.append("<div class='infos titre'></div>");
+	playerDiv.append("<div class='infos artiste'></div>");
+	playerDiv.append("<div class='infos album'></div>");
 	playerDiv.append("<div class='controls playpause'></div>");
 	playerDiv.append("<div class='controls stop'></div>");
 	playerDiv.append("<div class='controls duration'><div class='listened'><div class='d-cursor'></div></div></div>");
 	playerDiv.append("<div class='controls vol-icon'></div>");
 	playerDiv.append("<div class='controls volume'><div class='volzone'><div class='cursor'></div></div></div>");
-	playerDiv.append("<div class='infos titre'></div>");
-	playerDiv.append("<div class='infos artiste'></div>");
-	playerDiv.append("<div class='infos album'></div>");
+	
 	
 	var playpause = "play";
 	var listened = 0;
@@ -157,6 +155,9 @@ function makePlayer(audio, playerDiv){
 		}	
 	});
 	
-	
+	//Affichage des infos liées au morceau
+	$('.infos.titre').	html(playerDiv.data('titre'));
+	$('.infos.artiste').html(playerDiv.data('artiste'));
+	$('.infos.album').	html(playerDiv.data('album'));
 	
 }

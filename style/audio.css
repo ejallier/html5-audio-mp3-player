@@ -2,34 +2,45 @@ audio {
 display :none;
 }
 
-#player{
--khtml-user-select: none;
--webkit-user-select: none;
--moz-user-select: -moz-none;
--ms-user-select: none;
-user-select: none;
-}
 
+#player{
+	background: rgba(255, 255, 255, 0.6);
+	width: 350px;
+	margin: 0 auto;
+	padding: 24px;
+}
 #player .controls{
-background : url(audio.png) white no-repeat;
-display : inline-block;
-font : 0/0;
-color : transparent;
-width : 42px;
-height :42px; 
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+
+	background : url(audio.png) white no-repeat;
+	display : inline-block;
+	font : 0/0;
+	color : transparent;
+	width : 42px;
+	height :42px; 
 
 }
 
 #player .infos{
-background : white;
-height :42px; 
-font-family : Roboto
+	font-size : 1.2em;
+	font-family : Roboto
 }
 
-#player .artiste{
-
+#player .titre{
+	font-size: 2em;
+}
+#player .artiste, #player .album{
+	font-weight: bold;
+	color: rgba(0,0,0,0.4)
 }
 
+#player .album{
+	margin-bottom: 24px;
+}
 #player .playpause{
 	-webkit-transition: all 300ms ease-in;
 	-moz-transition: all 300ms ease-in;
