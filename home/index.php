@@ -48,8 +48,13 @@
 			data-artiste="<?= $artiste ?>"
 			data-album="<?= $album ?>">
 		</div>
-				<p class="credits">Made by <a href="//erwannjallier.com">Erwann Jallier</a> _ <a href="//cefim.eu">CEFIM</a> _ 2014</p>
-
+				<p class="credits">
+					Made by <a href="//erwannjallier.com">Erwann Jallier</a> _ <a href="//cefim.eu">CEFIM</a> _ 2014
+					<br>
+					Source code available on GitHub: <a href="//github.com/ejallier/html5-audio-mp3-player">ejallier/html5-audio-mp3-player</a>
+					<br>
+					<a href="//www.cefim.eu/balise-html5-audio-comment-lutiliser-personnaliser/">read more about it</a>
+				</p>
 	</main> <!-- /#content -->
 
 
