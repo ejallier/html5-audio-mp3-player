@@ -63,49 +63,49 @@ display :none;
 
 #player .duration{
 	width : 100px;
-	height : 16px;
+	height : 42px;
 	border :13px solid white;
 	background : lightgrey;
 	position : relative;
 }
 
 #player .listened{
-height : 16px;
-background : rgba(0,0,0,0.4);
-width : 3px;
-position : relative ;
+	height : 16px;
+	background : rgba(0,0,0,0.4);
+	width : 3px;
+	position : relative ;
 }
 
 #player .d-cursor{
-width : 3px;
-background : black;
-position : absolute;
-top:0;
-right : 0;
-height : 16px;
-cursor : e-resize;
+	width : 3px;
+	background : black;
+	position : absolute;
+	top:0;
+	right : 0;
+	height : 16px;
+	cursor : e-resize;
 }
 
 #player .volume{
-height : 42px;
-width : 50px;
-padding : 0 16px;
-background : white;
+	height : 42px;
+	width : 80px;
+	padding : 0 16px;
+	background : white;
 }
 #player .volzone{
-height : 12px;
-background : grey;
-margin-top : 14px;
-position:relative;
-border-radius : 8px;
+	height : 12px;
+	background : grey;
+	margin-top : 14px;
+	position:relative;
+	border-radius : 8px;
 }
 
 #player .volzone .cursor{
-width : 8px;
-height : 8px;
-border-radius : 50%;
-border : 2px solid black;
-background : white;
-position : absolute;
-left : center
+	width : 12px;
+	height : 12px;
+	border-radius : 50%;
+	border : 2px solid black;
+	background : white;
+	position : absolute;
+	left : center
 }
