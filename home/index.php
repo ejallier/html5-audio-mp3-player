@@ -21,18 +21,19 @@
 	<meta charset="UTF-8">
 
 	<title>Test Audio</title>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../style/normalize.css">
 	<link rel="stylesheet" href="../style/style.css">
 	<link rel="stylesheet" href="../style/audio.css">
 </head>
 <body>
-<div id="wrapper">
+<div id="wrapper" class="clearfix">
 
 
 	<header>
-		<h1>Test Audio</h1>
-		<h2>Player Audio HTML5 / JS / PhP</h2>
+		<h1>Player Audio MP3</h1>
+		<h2>Utilise l'élément html5 'audio', du JS pour les contrôle, et du PhP pour les infos ID3 Tag</h2>
+		<h2>Use html5 'audio' element, JS for controls, and PhP to get the ID3 Tags</h2>
 	</header>
 	
 	<main id="content" class="clearfix">

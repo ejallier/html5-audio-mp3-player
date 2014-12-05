@@ -4,7 +4,7 @@ display :none;
 
 
 #player{
-	background: rgba(255, 255, 255, 0.6);
+	background: #C5CAE9;
 	width: 354px;
 	margin: 0 auto;
 	padding: 24px;
@@ -26,12 +26,12 @@ display :none;
 }
 
 #player .infos{
-	font-size : 1.2em;
+
 	font-family : Roboto
 }
 
 #player .titre{
-	font-size: 2em;
+	font-size: 1.6em;
 }
 #player .artiste, #player .album{
 	font-weight: bold;
