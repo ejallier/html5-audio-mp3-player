@@ -8,7 +8,7 @@ And also PhP. A little bit.
 [La balise HTML5 Audio : l'utiliser et la personnaliser](http://www.cefim.eu/balise-html5-audio-comment-lutiliser-personnaliser/)
 
 ##Author
-[Erwann Jallier](//erwannjallier.com)
+[Erwann Jallier](http://erwannjallier.com)
 
 ##Enterprise
-[CEFIM](//cefim.eu)
+[CEFIM](http://cefim.eu)
