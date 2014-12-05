@@ -1,6 +1,6 @@
 <?php
 
-	require_once('../inc/getid3/getid3.php');
+	require_once('inc/getid3/getid3.php');
 
 	// Initialize getID3 engine
 	$getID3 = new getID3;
@@ -22,9 +22,9 @@
 
 	<title>Test Audio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../style/normalize.css">
-	<link rel="stylesheet" href="../style/style.css">
-	<link rel="stylesheet" href="../style/audio.css">
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/audio.css">
 </head>
 <body>
 <div id="wrapper" class="clearfix">
@@ -64,8 +64,8 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
 	<script src="//code.jquery.com/ui/1.10.3/jquery-ui.js" ></script>
-	<script src="../js/jquery.ui.touch-punch.min.js" ></script>
-	<script src="../js/audio.js" ></script>
+	<script src="js/jquery.ui.touch-punch.min.js" ></script>
+	<script src="js/audio.js" ></script>
 
 	<script>
 	$(document).ready(function() {
