@@ -12,10 +12,15 @@ function makePlayer(audio, playerDiv){
 	playerDiv.append("<div class='controls vol-icon'></div>");
 	playerDiv.append("<div class='controls volume'><div class='volzone'><div class='cursor'></div></div></div>");
 	
+	var duration = audio[0].duration;
+	audio[0].addEventListener("loadedmetadata", function(_event) {
+    	var duration = audio[0].duration;
+	}
+
 	
 	var playpause = "play";
 	var listened = 0;
-	var duration = audio[0].duration;
+
 	var volWidth = playerDiv.find(".volzone").width()- playerDiv.find(".cursor").outerWidth();
 	
 	audio[0].volume = 0.5;
