@@ -17,7 +17,7 @@ function makePlayer(audio, playerDiv){
 		var duration = audio[0].duration;
 
 
-	}
+	});
 	var playpause = "play";
 	var listened = 0;
 
