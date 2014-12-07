@@ -1,3 +1,6 @@
+$(document).ready(function(){
+
+
 function makePlayer(audio, playerDiv){
 	
 	/*
@@ -161,3 +164,5 @@ function makePlayer(audio, playerDiv){
 	$('.infos.album').	html(playerDiv.data('album'));
 	
 }
+
+	});
